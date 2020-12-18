@@ -5,9 +5,10 @@ Just a simple quine for fun. Not trying to be short about it either.
 
 git clone ...
 
-# Building and Running
+# Building and Testing
 
 ```sh
 g++ cpp_quine.cpp
 ./a.out
+diff cpp_quine.cpp cpp_quine_child.cpp
 ```
